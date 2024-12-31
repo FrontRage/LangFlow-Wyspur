@@ -12,7 +12,8 @@ logger = logging.getLogger(__name__)
 
 # Function to clean output text
 def clean_output(output_text):
-    """
+    """venv\Scripts\activate
+
     Clean the output text to standardize formatting and remove excessive markers.
     """
     output_text = output_text.replace("**", "")  # Remove excessive bold markers

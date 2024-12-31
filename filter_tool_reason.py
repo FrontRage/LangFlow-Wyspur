@@ -208,7 +208,7 @@ def filter_df_via_llm_summaries(
 
     if debug:
         st.subheader("LLM Debugging Information (Reasoning)")
-        max_display = 200
+        max_display = 400
         display_count = 0
 
         for idx, (dec, rsn) in decisions.items():
